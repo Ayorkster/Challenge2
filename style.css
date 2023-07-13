@@ -29,7 +29,7 @@ nav{
     background-color: coral;
 }
 li{
-    display: flex;
+    
     flex-direction: row-reverse;
     float:right
 
@@ -110,10 +110,11 @@ first {
     text-align: center;
   }
 
-@media screen and (max-width: 992px) {.gallery, .gallery img, #gallery1
-    {width: auto;}
+@media screen and (max-width: 992px) {
+    .gallery{ width: 50%;}
 
 }
+
 
 /*<section><img id=workimg1 src="./Assets/Illustration3.png" alt="">
         <div class="desc">x</div>
