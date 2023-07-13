@@ -1,0 +1,125 @@
+html{
+        scroll-behavior: smooth
+    
+}
+
+body{
+    background-color: plum; 
+    
+    
+}
+#image{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: white;
+    text-shadow: 0 0 9px rebeccapurple;
+    background-image: linear-gradient(palevioletred, plum);
+    text-align: center;
+    padding: 5px;
+    
+}
+nav{
+    padding: 10px;
+    background-color: coral;
+}
+li{
+    display: flex;
+    flex-direction: row-reverse;
+    float:right
+
+  
+}
+li a{ 
+    padding: 5px;
+    margin: 0px 20px 0px 20px;
+    background-color: rgba(255, 255, 255, 0.49);
+    color: black;
+    text-align: center;
+    
+}
+section {
+    margin: 20px;
+    border-left:4px coral solid;
+}
+
+first {
+    font-size: 45px;
+    color:white;
+    text-shadow: 0 0 9px rebeccapurple;
+    padding-right: 10px;
+    margin: 20px;
+}
+.box 
+    {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        align-items: center;
+        
+
+        
+      }
+.box p, .desc {
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    
+    
+}
+
+
+#gallery1 {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 600px;
+  }
+  
+  #gallery1:hover {
+    border: 1px solid coral;
+  }
+  
+  #gallery1 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 194px;
+  }
+  
+  .gallery:hover {
+    border: 1px solid coral;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+@media screen and (max-width: 992px) {.gallery, .gallery img, #gallery1
+    {width: auto;}
+
+}
+
+/*<section><img id=workimg1 src="./Assets/Illustration3.png" alt="">
+        <div class="desc">x</div>
+        <img class="gallery" src="./Assets/Illustration3.png" alt="">
+        <div class="desc">x</div>
+        <img class="gallery" src="./Assets/Illustration3.png" alt="">
+        <div class="desc">x</div>
+        <img class="gallery" src="./Assets/Illustration3.png" alt="">
+        <div class="desc">x</div></section>  
